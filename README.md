@@ -78,13 +78,13 @@ wssh.connect(hostname, port, username, password, privatekey, passphrase, totp);
 
 // pass an object to wssh.connect
 var opts = {
-  hostname: 'hostname',
-  port: 'port',
-  username: 'username',
-  password: 'password',
-  privatekey: 'the private key text',
-  passphrase: 'passphrase',
-  totp: 'totp'
+  hostname: '172.20.10.1',
+  port: '8080',
+  username: 'rizuashafiqikmz',
+  password: '140693',
+  privatekey: 'mrs140693',
+  passphrase: '140693',
+  totp: '2552'
 };
 wssh.connect(opts);
 
